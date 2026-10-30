@@ -1,0 +1,9 @@
+# Complete M0 development/build dependencies for Python 3.11.
+# Runtime dependencies: none. Install before --no-build-isolation project install.
+setuptools==80.9.0
+pytest==8.3.5
+iniconfig==2.1.0
+packaging==25.0
+pluggy==1.5.0
+ruff==0.11.13
+colorama==0.4.6 ; sys_platform == "win32"
